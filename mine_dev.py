@@ -237,12 +237,12 @@ solution_map8 = [["0", "0", "0", "0"],
 # 7 = 6
 # 8 = 4
 
-num_of_bombs = 18
+num_of_bombs = 6
 
-map = map5.strip()
+map = map1.strip()
 
 def open(y,x):
-    return solution_map5[y][x]
+    return solution_map1[y][x]
 
 
 
